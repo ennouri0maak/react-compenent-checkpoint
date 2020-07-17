@@ -1,0 +1,29 @@
+.user{
+    width: 9cm;
+    height: 5cm;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3cm;
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.user:hover{
+    -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+.name{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.adress{
+    text-align: center;
+
+}
+body{
+    background-color: skyblue;
+}
